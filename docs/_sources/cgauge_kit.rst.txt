@@ -1,0 +1,32 @@
+.. _cgauge_kit.rst:
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Gleeble\ |R| 39010 Strain-Crosswise Transducer Kits (Hot Zone C-Strain)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+The Gleeble\ |R| Strain-Crosswise Transducer is used to measure the diameter of a specimen 
+while it undergoes mechanical and thermal deformation. This measurement can be obtained at a high sample 
+rate by the device so that at each sample, the computer can calculate the stress and strain on the specimen. 
+The device can therefore also be used to measure and control the strain or deformation on the specimen. The 
+C-Gauge features a pair of quartz rods which span the diameter of the specimen. These rods may be referred
+to as the arms of the device.
+
++--------------------------------------------------------------------------+
+| C-Gauge Specifications:                                                  |
++======================+===================================================+
+| Type                 | LVDT                                              |
++----------------------+---------------------------------------------------+
+| Linear Range         | +/- 6.25 mm (+/- 0.25 inches)                     |
++----------------------+---------------------------------------------------+
+| Linearity            | +/- 0.25% of full scale                           |
++----------------------+---------------------------------------------------+
+| Gauge Length         | 0 - 12 mm (0 - 0.5 inches)                        |
++----------------------+---------------------------------------------------+
+| Control Modes        | Crosswise Measurement, Strain, Stress             |
+|                      |                                                   |
++----------------------+---------------------------------------------------+
+
+
+
+.. image:: _images/Cgaugekit.jpg
+	

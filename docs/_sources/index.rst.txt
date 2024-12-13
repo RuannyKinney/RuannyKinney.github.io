@@ -1,0 +1,29 @@
+.. 39010 Strain-Crosswise Transducer documentation master file, created by
+   sphinx-quickstart on Thu Jun 05 15:21:45 2014.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+   
+   
+Gleeble\ |R| \ 39010 Stain-Crosswise Transducer Users Manual
+=============================================================
+
+**IMPORTANT NOTICES**
+
+ 
+Specifications subject to change without notice. Dynamic Systems Inc. (DSI) reserves the right to make changes at any time in order to improve design and supply the best product possible. Pictures and diagrams show the latest models as of time of publication. Actual appearance may vary.
+
+Information contained in this publication is believed to be reliable and accurate.  However, responsibility is assumed neither for its use nor for any infringement of patents or rights of others that may result from their use.  No license is granted by implication or otherwise under any patent or patent right of Dynamic Systems Inc. or others.
+
+Copyright 2000-\ |today| Dynamic Systems Inc.
+All rights reserved.
+
+Gleeble® and Hydrawedge are registered trademarks of Dynamic Systems Inc. Windows is a trademark of Microsoft Corp.  QuikSim and Simcon are trademarks of Dynamic Systems Inc.
+ 
+
+**Contents**:
+
+.. toctree::
+   :maxdepth: 2
+	
+   cgauge_kit.rst
+   SetupAndOperation.rst

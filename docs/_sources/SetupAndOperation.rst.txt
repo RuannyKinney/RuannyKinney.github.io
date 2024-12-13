@@ -1,0 +1,530 @@
+.. _SetupAndOperation.rst:
+
+++++++++++++++++++++++++++++++++++++++++
+Configuration and Operation Instructions
+++++++++++++++++++++++++++++++++++++++++
+
+The following sections will illustrate how to properly set up and operate the Gleeble\ |R| Strain-Crosswise Transducer.
+
+Configuration
+=============
+
+This guide to configuring the C-Gauge can be performed once a specimen has been loaded appropriately for the particular type of 
+test the user wishes to perform. The guide for loading a specimen is not given here, and the type of test shown in these images 
+is a SICO compression test. A manual detailing the testing procedure for a SICO test can be found in the 
+`General Testing Guide <https://www.gleeble-tech.com/gleebledocs/testing_guide/compression.html>`_.
+
+#.  Begin by installing the C-Gauge module in slot 3 of the Gleeble's console.
+    
+    .. figure:: _images/modulefront.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+        The front of the C-Gauge Module. The 3 indicates the slot to install it in. 
+    
+    .. figure:: _images/moduleInstallation.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+        Slide the module in with the tracks aligned until the module is firmly in place and flush 
+        with the other modules and module covers.
+
+#.  Return the system to Configuration Mode and wait for the Models to load. 
+    Verify that the 39010 Model appears on the screen and press Accept 
+    Configuration to return to Run Mode. The C-Gauge VPM will be displayed on 
+    the screen.
+    
+    .. figure:: _images/cgaugeModel.png
+        :align: center
+        :figwidth: 90 %
+        
+        The 39010 CGauge Crosswise LVDT Model on the Configuration Screen
+        
+    .. figure:: _images/gtcVPM.png
+        :align: center
+        
+        The CGauge VPM
+    
+    .. note:: If the system is equipped with the Series 3 style Console, 
+              Reboot the Gleeble system by powering down the console and rebooting it.
+              The system should show the C-gauge variable on the console monitor after rebooting.
+              Users with administrator privileges may reboot the system by clicking on 
+              "Quit Simcon" in the Gleeble menu in QuikSim.
+    
+              .. figure:: _images/quitsimcon.png
+                  :align: center
+        
+                  Quit Simcon option for users with elevated privileges.
+
+              .. figure:: _images/variable.jpg
+                  :align: center
+                  
+                  The Series 3 Console CGauge VPM
+                    
+#.  On the underside of the Gleeble's vacuum chamber, remove the two small boss plugs with a wrench.
+    
+    .. figure:: _images/bossplugs.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+    
+    
+    
+#.  Apply vacuum grease to the threads on the small nozzles shown in the image below. This will help maintain 
+    vacuum while testing.
+#.  Screw the two nozzles into place where the boss plugs were. It will be convenient to attach the entry vacuum feed-through to 
+    the left side, and the exit nozzle to the right side as shown in the picture below. Tighten them into place 
+    with a wrench.
+    
+    .. figure:: _images/nozzles.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+    
+    
+    
+#.  Attach the ball valve and pressure gauge apparatus to the entry vacuum feed-through on the left. 
+    This valve is attached with the quick hose connector end oriented upward as shown in the picture. 
+    The numbers on the pressure gauge will be right side up if it is connected correctly.
+    
+    .. figure:: _images/valveend.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    
+    
+    .. figure:: _images/valveattached.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    
+    
+    .. warning:: Make sure the ball valve is closed before proceeding to prevent injury.
+    
+#.  With the ball valve closed, attach the quick hose connector on the air manifold hose to the bottom 
+    nozzle on the valve and the other end to an open air feed on the back of the Gleeble.
+    
+    .. figure:: _images/blackhosebalvalve.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+        The quick hose connector end of the air manifold hose is attached to the bottom side of the entry vacuum feed-through. Notice that the ball valve 
+        should be closed when attaching this hose.
+        
+    
+    
+#.  Apply some vacuum grease to the tops of both of the nozzles inside the Gleeble's chamber. Then attach one cooling tube 
+    to each of the nozzles inside the chamber with a hose clamp and tighten the hose clamps as illustrated in the pictures below.
+    
+    .. figure:: _images/tygontonozzle.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+        Connect the cooling tubes to the nozzles on the inside of the chamber.
+    
+    
+    
+    .. figure:: _images/tygonhoses.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    
+    
+    .. figure:: _images/hoseclamp.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+        Tighten the hose clamps onto the nozzles using fingers or pliers if necessary.
+        
+    
+    
+#.  Using two screws, attach the two rubber band mounts to the jaws as shown below.
+    
+    .. figure:: _images/rubberbandmounthole.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    
+    
+    .. figure:: _images/screwmounts.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+        Screw the mounts into place with a screw driver until tight.
+        
+    
+
+#.  Apply vacuum grease to the outside of the two small vents on the top of the C-Gauge and attach the other ends of the cooling tubes 
+    to them with hose clamps. Tighten the hose clamps to hold the hoses in place.
+    
+    .. figure:: _images/tygontocgauge.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    
+
+#.  Open the ball valve, the air should now be flowing through the C-Gague and out the exit vacuum feed-through unless the pressure is too low. 
+    The air pressure can be adjusted with the knob on the side of the regulator apparatus while it is open. 
+    It should be brought to 5 PSI.
+    
+    .. figure:: _images/5psi.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    
+
+C-Gauge Operation Instructions
+==============================
+The following instructions assume all the apparatus used for the C-Gauge are configured properly as detailed in the previous section and
+the specimen has been loaded for testing.
+
+
+#.  Affix the rubber band to the two rubber band mounts so that it is taut as shown below.
+    
+    .. figure:: _images/rubberband.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    
+
+#.  Attach the data connector from the C-Gauge to the port on the left side of the Gleeble's thermocouple panel. The port is 
+    labelled "C-STRAIN".
+    
+    .. figure:: _images/datacable.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+    
+    
+    
+#.  Pull the top rod of the C-Gauge backward, compressing the spring, to increase the spacing between the two rods. Then bring the bent rod around 
+    the back of the specimen and bring the top rod back so that it touches the front of the specimen. The top rod should be positioned so that it 
+    is in the center of the specimen where the thermocouple is located. Now rest the back of the C-Gauge on the rubber band 
+    so that it is not leaning to either side.
+    
+    .. figure:: _images/cgaugepull.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+        Pull the C-Gauge rod back by holding the two metal fixtures as shown and squeezing gently.
+    
+    
+    
+#.  Below are images depicting what the set up should look like at this stage.
+    
+    .. figure:: _images/setupfullview2.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+
+    
+    
+    .. figure:: _images/setupright2.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+    
+    
+    
+    .. figure:: _images/setupleft2.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+        
+    There are a few different ways to hold the C-Gauge in place with the rubber band other than the way shown in the images 
+    above. Should it be too difficult to balance the C-Gauge without any tilt, another method may be used. One of these methods is to 
+    hold the C-Gauge in place between the rubber band to hold it on top and on bottom. This may help to stabilize the C-Gauge more 
+    and prevent it from moving around during the test. Users may also wish to anchor the cooling tubes through the rubber band as well 
+    so that they do not pull the C-Gauge one way or another during the test. An alternate configuration of the C-Gauge 
+    is shown below.
+    
+    .. figure:: _images/alttop.jpg
+        :figwidth: 90 %
+        :width: 75 %
+        :align: center
+
+#.  Begin by verifying that the C-Gauge variable is in the range of the transducer.
+    Since the range of the transducer is +/- 6.35 mm in tension and compression respectively, 
+    measurements that go beyond the range of the transducer will result in invalid data. 
+    Thus if the user expects the distance that the C-Gauge will move to be greater than the range of the
+    transducer in a particular direction, the position of the transducer should be adjusted to give the C-Gauge enough room to accommodate 
+    a change in the diameter of the sample.
+    
+    **Follow these steps to bring the transducer to a good initial position:**
+        
+        #.  Examine the current resting position of the C-Gauge transducer while 
+            it is mounted on the specimen. If there is not enough length for the 
+            test, proceed with these instructions, otherwise skip this procedure.
+        #.  Loosen the transducer holding screw on the back of the C-Gauge.
+        
+            .. figure:: _images/transscrew.jpg
+                :figwidth: 90 %
+                :width: 75 %
+                :align: center
+                
+                Loosen screw on C-Gauge
+        
+            
+        #.  Slowly pull or push the transducer while watching the absolute value on 
+            the VPM to verify that it is moved to a good initial length that allows 
+            for ample travel distance during the test.
+        
+            .. figure:: _images/transadjust.jpg
+                :figwidth: 90 %
+                :width: 75 %
+                :align: center
+                
+                Push or pull the transducer to adjust C-Gauge variable.
+            
+            
+        #.  Tighten the transducer holding screw again being careful not to 
+            move the transducer while tightening it.
+        
+#.  Open the ball valve under the chamber to turn the air cooling on for the C-Gauge. Always do this before beginning to heat a specimen.
+
+    .. warning:: The C-Gauge must be cooled during any test to prevent damage to the apparatus.
+    
+#.  Begin writing a QuickSim program for a test. In this example, the test is a SICO compression test. 
+    Because the C-Gague rods are positioned between the jaws, if the jaws move too far in compression during the test, 
+    the C-Gauge rods will break. To avoid breaking the C-Gauge rods, a global limit on the stroke compression must be set 
+    so that the jaws never compress far enough to break the C-Gauge.
+    Click the 'System' button in the top left corner of the table to open the window shown below and enter the global limit for compression. 
+    More information about the 'System Setup' window can be found in the "Table Programming" chapter of the QuickSim2 Users Manual in the section titled: 
+    System Button. 
+    In this test, a global limit for stroke compression of -57 mm has been deemed safe for the C-Gauge. This value was determined by measuring the distance 
+    to the C-Gauge rod from the Jaw. This value may vary depending on the nature of the test, 
+    carefully measure a safe distance for the jaws to stop. Click 'OK' when finished.
+    
+    .. figure:: _images/cgaugestrokelimit.png
+        :align: center
+        
+        
+    
+#.  If the stress and strain on the specimen is going to be measured, click the 'Stress/Strain' button under the 'System' 
+    button to bring up the window below. This window specifies the type of stress/strain calculation to be used. 
+    For the C-Gauge there are two options, the "True Diametral" and "Hoop" calculations. 
+    The window displays the calculation that will be done using the diameter measured by the C-Gauge. For each the C-Gauge 
+    should be selected as the input for the diameter, and the initial diameter should be entered in the field labelled "Specimen Initial 
+    Diameter". Select which calculation to use, enter the required information and click 'OK' when finished.
+    
+    .. note:: For SICO tests, the Hoop Strain Calculation should be used.
+    
+    .. figure:: _images/cgaugetrudia.png
+        :figwidth: 90 %
+        :align: center
+        
+        True Diametral Calculation
+        
+    
+    
+    .. figure:: _images/cgaugestressstrain.png
+        :figwidth: 90 %
+        :align: center
+        
+        Hoop Calculation
+    
+    
+#.  Write a program which uses the measurements of the C-Gauge. The control methods that the C-Gauge can be used for 
+    are detailed in the next section and an example program that uses the C-Gauge is given in the subsequent section.
+    
+Control Modes
+-------------
+
++------------------------------+
+| **Available Control Modes:** |
++------------------------------+
+| Displacement                 |
++------------------------------+
+| Strain                       |
++------------------------------+
+| Stress                       |
++------------------------------+
+
+Diameter Measurement (Displacement) Control
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The C-Gauge may be used as a measurement device alone to acquire the diameter of the specimen throughout 
+the test. To do this the "CGauge" variable must be selected in the "Acquire" box. 
+
+.. figure:: _images/cgaugeacquire.png
+    :align: center
+
+The diameter measurement from the C-Gauge itself may be used as the control for the mechanical system. 
+To do this, the "CGauge(mm)" option can be selected from the mechanical mode menu. This allows the diameter of the specimen 
+to be controlled. In the QuickSim table excerpt below, The first line is used to zero the C-Gauge. This allows the 
+the user to specify the diameter relative to the current position while preventing any "jumping" in the mechanical system.
+
+.. note:: If the C-Gauge is not zeroed before it is switched to control, the system may not move as expected when 
+    a new diameter is specified since the position of the C-Gauge at that stage of the program may have moved from the zero point.
+    
+There is a line after the zero line which holds the system at it's current position for 0.1 seconds simply to allow the 
+computer enough time to perform the zeroing. This can also be done with a GSL line with the 'delay' command:
+
+.. code:: 
+    
+    GSL> delay 0.1sec
+
+Next, the program switches to CGauge control in the mechanical system. After this switch, the program holds at the current 
+diameter and temperature before shutting off the heat. Then the program moves the mechanical system such that the diameter is 
+increased by 12 mm in 0.08 seconds and then held at this diameter for 0.1 seconds.
+
+.. figure:: _images/cgaugecontrol.png
+    :align: center
+    
+    A QuickSim table excerpt that uses C-Gauge Diameter Measurement Control
+    
+    
+Strain Control
+^^^^^^^^^^^^^^
+
+In order to use strain control, the strain calculation type must be specified using the stress/strain 
+window explained in the previous section.
+
+With the measurement made by the C-Gauge, the strain can be calculated and the mechanical system can be controlled by 
+the calculated strain. To do this, the "Strain" option can be selected from the mechanical mode menu. This allows the strain on the specimen 
+to be controlled. In the QuickSim table excerpt below, The first line is used to zero the Stroke and C-Gauge. This allows the 
+the user to specify the strain on the specimen while preventing any "jumping" in the mechanical system.
+
+.. note:: If the Stroke and C-Gauge are not zeroed before they are switched to control, the system may not move as expected when 
+    a new diameter is specified since the position of the Stroke and diameter measured by the C-Gauge at that stage of the program 
+    may have moved from their respective zero points.
+    
+There is a line after the zero line which holds the system at it's current position for 0.1 seconds simply to allow the 
+computer enough time to perform the zeroing. This can also be done with a GSL line with the 'delay' command:
+
+.. code:: 
+    
+    GSL> delay 0.1sec
+
+Next, the program switches to Strain control in the mechanical system. After this switch, the program holds at the current 
+strain and temperature before shutting off the heat. Then the program moves the mechanical system to apply a compressive strain of 
+0.5 to the specimen in 0.8 seconds and then hold it at this strain for 0.1 seconds.
+
+.. figure:: _images/straincontrol.png
+    :align: center
+    
+    A QuickSim table excerpt that uses Strain Control
+    
+Stress Control
+^^^^^^^^^^^^^^
+
+In order to use stress control, the stress calculation type must be specified using the stress/strain 
+window explained in the previous section.
+
+With the measurement made by the C-Gauge, the stress can be calculated and the mechanical system can be controlled by 
+the calculated stress. To do this, the "Stress(MPa)" option can be selected from the mechanical mode menu. This allows the stress on the specimen 
+to be controlled. In the QuickSim table excerpt below, The first line is used to zero the Stroke and C-Gauge. This allows the 
+the user to specify the stress on the specimen while preventing any "jumping" in the mechanical system.
+
+.. note:: If the Stroke and C-Gauge are not zeroed before they are switched to control, the system may not move as expected when 
+    a new diameter is specified since the position of the Stroke and diameter measured by the C-Gauge at that stage of the program 
+    may have moved from their respective zero points.
+    
+There is a line after the zero line which holds the system at it's current position for 0.1 seconds simply to allow the 
+computer enough time to perform the zeroing. This can also be done with a GSL line with the 'delay' command:
+
+.. code:: 
+    
+    GSL> delay 0.1sec
+
+Next, the program switches to Stress control in the mechanical system. After this switch, the program holds at the current 
+stress and temperature before shutting off the heat. Then the program moves the mechanical system such that the specimen is stressed 
+in a compressive manner by 12 MPa in 0.08 seconds and then held at this stress for 0.1 seconds.
+
+.. figure:: _images/stresscontrol.png
+    :align: center
+    
+    A QuickSim table excerpt that uses Stress Control
+    
+Other control Modes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+While the C-Gauge is in use, the default mechanical control modes are still available. For example, the system can be controlled using Stroke control. 
+To do this, the "Stroke(mm)" option can be selected from the mechanical mode menu. This allows the deformation of the specimen 
+to be controlled. In the QuickSim table excerpt below, The first line is used to zero the Stroke. This allows the 
+the user to specify the position of the jaws relative to the current position while preventing any "jumping" in the mechanical system.
+
+.. note:: If the Stroke is not zeroed before it is switched to control, the system may not move as expected when 
+    a new diameter is specified since the position of the Stroke at that stage of the program may have moved from the zero point.
+    
+There is a line after the zero line which holds the system at it's current position for 0.1 seconds simply to allow the 
+computer enough time to perform the zeroing. This can also be done with a GSL line with the 'delay' command:
+
+.. code:: 
+    
+    GSL> delay 0.1sec
+
+Next, the program switches to Stroke control in the mechanical system. After this switch, the program holds at the current 
+position and temperature before shutting off the heat. Then the program moves the mechanical system such that the jaws are 
+compressed by 12 mm in 0.08 seconds and then held at this position for 0.1 seconds.
+
+.. figure:: _images/strokecontrol.png
+    :align: center
+    
+    A QuickSim table excerpt that uses Deformation (Stroke) Control
+    
+    
+C-Gauge Example Program
+-----------------------
+    
+As an example, the following table is for a SICO 
+compression test in which a specimen is heated to 950 degrees Celsius, allowed to soak for 1 minute, then compressed by 12 mm. 
+First notice that the limits that were defined for stroke control appear at the top and the initial diameter for the 
+strain calculation also appears here.
+
+.. figure:: _images/cgaugeproglims.png
+    :align: center
+    
+
+
+Next are the commands for heating the specimen. Notice that the force control has been selected for the mechanical 
+system and its value has been set to zero for the duration of the heating and the soaking. This allows for the 
+specimen to expand thermally without the jaws applying any force to it to compress it.
+
+.. figure:: _images/cgaugeprogexpansion.png
+    :align: center
+    
+
+
+Next, the stroke position has been zeroed to avoid any "jumping" when the specimen begins to be compressed. 
+There is also a line to hold for a 0.1 seconds to allow for the computer to perform this operation. 
+This can also be done with a GSL line with the 'delay' command:
+
+.. code:: 
+
+    GSL> delay 0.1sec
+    
+.. figure:: _images/cgaugeprogzero.png
+    :align: center
+    
+
+
+Next, the program is switched to stroke control, there is again a line which waits for 1 second to allow for this operation.
+The sample rate is also increased at this time since the process is expected to happen very quickly. 
+
+Next the heat is turned off to prevent any interference with the load cell from the magnetic field generated 
+by the current through the specimen. This is acceptable for this test since it is so short and the specimen will 
+not have substantial time to cool down, however for longer tests where the compression is slower, the heat should remain 
+on since the specimen will cool otherwise. In the latter case, there will be some noise in the C-Gauge data due to the 
+generated magnetic field. 
+
+Next the specimen is compressed 12 mm in 0.08 seconds at a rate of 150 mm/s by the stroke control, 
+and then held at this position for 0.1 seconds.
+
+.. figure:: _images/cgaugeprogstroke.png
+    :align: center
+    
